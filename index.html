@@ -1,8 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
+      <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <title>
-            UX/UI Homework 20
+            UX/UI Homework 20 Case study
         </title>
         <!--Bootstrap link and script-->
         <link 
@@ -10,52 +12,145 @@
          rel="stylesheet" 
          integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" 
          crossorigin="anonymous">
-        
+         <style>
+          html {
+            scroll-behavior: smooth;
+          }
+          
+          #section1 { 
+           margin: 0%;
+          }
+          
+          #section2 {
+            color:white;
+          }
+
+          #section3{
+           color:white;
+          }
+          
+          #section4{
+            color:white;
+          }
+          #section5{
+            color: white;
+          }
+          </style>
         <!--CSS link-->
-        <link rel="stylesheet" href="CSS/index.css">
+        <link rel="stylesheet" href="./CSS/style.css">
     </head>
+
     <body>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary" id="section1">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#">Navbar</a>
+              <a class="navbar-brand" href="#">
+              <img src="./images/True new logo in the works.png" alt="Bootstrap" id="logo">
+              </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              </div>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent" >
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
+                    <a class="nav-link" href="#">Resume</a>
                   </li>
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Dropdown
+                      Current Case study quick nav
                     </a>
                     <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#section1">Snapshot of project</a></li>
+                      <li><a class="dropdown-item" href="#section2">Week 1 research of customer</a></li>
+                      <li><a class="dropdown-item" href="#section3">Week 2 problem/goal</a></li>
+                      <li><a class="dropdown-item" href="#section4">Week 3 inspiration/solution</a></li>
+                      <li><a class="dropdown-item" href="#section5">Week 4 & 5 presenting findings</a></li>
                       <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      <li><a class="dropdown-item" href="#">look at more case studies</a></li>
                     </ul>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                    <a class="nav-link"> About me</a>
                   </li>
                 </ul>
-                <form class="d-flex" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
               </div>
             </div>
           </nav>
-        here is a simple intro text for basic visuals
+        <div class="jumbotron">
+          <h1>Snapshot of project</h1>
+          <h2>Redesign of the Department of Education Navigation.</h2>
+          <ul>
+          <li>5 weeks</li>
+          <li>designers: Tim M.</li>
+          <li>tools used: figma and figJam</li>
+        </ul>
+        </div>
+        <div class="customer">
+          <h1>Introducing Ed.gov!</h1>
+          <img src="./images/image 2134.png" alt="">
+        </div>
+        <div class="goal" id="section2">
+          <h1>The research conducted to uncover the Problem statement</h1>
+          <p>GOAL: To make the site more UI friendly </p>
+           <div>
+             <img src="./images/image 219.png" alt="">
+             <img src="./images/heuristicEval.png" alt="">
+           </div>
+           <div>
+            <img src="./images/persona.png" alt="">
+            <p>As I looked for problems with navigation and ease of access I found more problems than I wanted or could fix in the time given.</p>
+           </div>
+        </div>
+        <div class="problem" id="section3">
+          <h1>The problem statement uncovered</h1>
+          <li>The Problem:
+            Overwhelming amounts of information and a shoddy navigation process make it difficult for users to easily navigate the Department of Education website.
+           </li>
+          <li> My Solution:
+            Creating a minimalist design with curated content that helps keep the interface clean by displaying only pivotal information and housing more robust information for common users.
+          </li>
+          <img src="./images/image 218.png" alt="">
+          <p>So I set about reorganizing the site based on the results of thurough card sorting to look for useful patterns and insight.</p>
+          <img src="./images/Screenshot 2024-05-26 191441 2.png" alt="">
+        </div>
+        <div class="solutions" id="section4">
+          <h1>How the work was iterated based on user testing</h1>
+          <div>
+          <img src="./images/Screenshot 2024-04-29 230428 1.png" alt="">
+          </div>
+          <div>
+          <img src="./images/Screenshot 2024-04-29 230410 1.png" alt="">
+          <img src="./images/Screenshot 2024-04-29 230549 1.png" alt="">
+          <img src="./images/Screenshot 2024-04-29 230557 1.png" alt=""></div>
+        </div>
+        <div class="results" id="section5">
+          <h1>The final prototype that solved the problem</h1>
+          <img src="./images/Screenshot 2024-06-25 162955 1.png" alt="">
+          <img src="./images/Screenshot 2024-04-29 230644 1.png" alt="">
+        </div>
+        <footer>
+          <ul>
+              <li>ABOUT</li>
+              <li>SKILLS</li>
+              <li>WORK</li>
+              <li>CONTACT</li>
+              <Button class="smoothScroll">
+                 <div>
+                     <a href="#section1">Click Me to Scroll back to the top</a>
+                 </div>
+              </Button>   
+          </ul>
+      </footer>
+        <!--Custom JS-->
+        <script src="js/scripts.js"></script>
     </body>
-    <script 
+    <script
          src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
          integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" 
          crossorigin="anonymous">
     </script>
+    
 </html>
