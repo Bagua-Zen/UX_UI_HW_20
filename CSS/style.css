@@ -14,6 +14,7 @@ body{
     border-radius: 20px;
     padding:2%
 }
+
 #navbarSupportedContent {
    margin-right: 2%;
 }
@@ -24,29 +25,33 @@ body{
 }
 
 .jumbotron{
-  display: flex;
-  flex-direction: column;
-  padding: 15px;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    justify-content: center;
+    margin-bottom: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 h1{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-bottom:2px solid rgb(196, 177, 8);
 }
 
 .customer {
- flex-wrap: wrap;
-    padding: 15px;
-    align-self: center;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
     justify-content: center;
-    margin-bottom: 20px;
+    align-content: center;
+    margin-bottom: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
-.theUsers{
-    display: flex;
-}
 
 #theCo {
     display: flex;
@@ -55,37 +60,45 @@ h1{
 .goal { 
     display: flex;
     flex-direction: column;
-    padding: 15px;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 20px;
+    padding: 25px;
+    align-content: space-between;
+    margin-bottom: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .problem {
-    display: flex;
-    flex-direction: column;
-    padding: 15px;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  justify-content: center;
+  margin-bottom: 40px;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .solutions {
     display: flex;
     flex-direction: column;
-    padding: 15px;
-    align-items: center;
+    padding: 25px;
     justify-content: center;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.bigImg{
+    max-height: 500px;
+    max-width: 500px;
 }
 
 .results {   
-    display: flex;
-    flex-direction: column;
-    padding: 15px;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 25px;
+    margin-bottom: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 footer {
