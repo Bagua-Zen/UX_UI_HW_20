@@ -16,7 +16,9 @@
           html {
             scroll-behavior: smooth;
           }
-          
+          #top{
+            margin: 0%;
+          }
           #section1 { 
            margin: 0%;
           }
@@ -41,7 +43,7 @@
     </head>
 
     <body>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary" id="section1">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary" id="#top">
             <div class="container-fluid">
               <a class="navbar-brand" href="#">
               <img src="./images/True new logo in the works.png" alt="Bootstrap" id="logo">
@@ -63,7 +65,7 @@
                       Current Case study quick nav
                     </a>
                     <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#section1">Snapshot of project</a></li>
+                      <li><a class="dropdown-item" href="#section1">About Ed.gov</a></li>
                       <li><a class="dropdown-item" href="#section2">Week 1 research of customer</a></li>
                       <li><a class="dropdown-item" href="#section3">Week 2 problem/goal</a></li>
                       <li><a class="dropdown-item" href="#section4">Week 3 inspiration/solution</a></li>
@@ -78,7 +80,8 @@
                 </ul>
               </div>
             </div>
-          </nav>
+        </nav>
+        
         <div class="jumbotron">
           <h1>Snapshot of project</h1>
           <h2>Redesign of the Department of Education Navigation.</h2>
@@ -88,8 +91,10 @@
           <li>tools used: figma and figJam</li>
           </ul>
         </div>
+        
         <img src="./images/stockphoto.png" alt="">
-        <div class="customer">
+        
+        <div class="customer" id="section1">
           <h1>Introducing Ed.gov!</h1>
            <div id="theCo">
            <div class="rowOfInfoCon">
@@ -114,6 +119,7 @@
           </div>
           <img src="./images/questionmark.png" alt="">
         </div>
+
         <div class="goal" id="section2" >
           <h1>The research conducted to uncover the Problem statement</h1>
           <h3>GOAL: To make the site more UI friendly </h3>
@@ -124,6 +130,7 @@
           </div>
            <h4>As I looked for problems the average user might have with navigation and ease of access (all the while refining my understanding of the users needs based on interviews and other forms of evaluation and research)  I found more problems than I wanted to or could fix in the time given.</h4>
        </div>
+
         <div class="problem" id="section3">
           <h1>The problem statement uncovered</h1>
           <div id=probSol>
@@ -147,6 +154,7 @@
           </div>
           
         </div>
+
         <div class="solutions" id="section4">
           <h1>How the work was iterated based on user testing</h1>
           <div>
@@ -168,14 +176,37 @@
         <div class="results" id="section5">
           <h1>The final prototype that solved the problem</h1>
           <div class="rowOfInfoCon">
-           <p>The end result wound up being a need for curated content via an updated navigation bar for better clarity, a main homepage and 3 sub curated homepages so as to best provide new and exhausting users with the fastest access to all the information they would need as it pertains to the main users. </p>
-           <img src="./images/finalbefore.png" alt="">
-           <img src="./images/after1.png" alt="">
+
+            <p>The first two images below are the main page site before and After with the biggest difference being the change in clutter and initial overload allowing one more time to first process navigation.</p>
+             <img src="./images/finalbefore.png" alt="">
+             <img src="./images/after1.png" alt="">
+            <p>The end result wound up being a need for curated content via an updated navigation bar for better clarity, a main homepage and 3 sub curated homepages so as to best provide new and exhausting users with the fastest access to all the information they would need as it pertains to the main users. </p>
           </div>
+        
+           <div>
+             <div  class="columnInfo">
+               <img src="./images/curatedContentWUpd.png" alt="">
+             </div>
+             <div class="columnInfo">
+               <img src="./images/updatedMainpages.png" alt="">
+             </div>
+           </div>
+
           <div>
            <img src="./images/Screenshot 2024-04-29 230644 1.png" alt="">
+           <img src="./images/mobile version.png" alt="">
+          </div> 
+        </div>
+
+          <div class="rowOfInfoCon">
+           <img src="./images/mobileCuratedFinal.png" alt="">
+           <img src="./images/mobileGeneralFinal.png" alt="">
+          </div>
+
+           <div>
            <img src="./images/working-at-night.png" alt="">
           </div>
+          
           <ul>
             <p>Final thoughts and notes for future iterations: </p>
             <li>this is a much bigger job than an individual can take on all at once, i'd like to work in a team next time on this site.</li>
@@ -194,11 +225,11 @@
               <li>CONTACT</li>
               <Button class="smoothScroll">
                  <div>
-                     <a href="#section1">Click Me to Scroll back to the top</a>
+                     <a href="#top">Click Me to Scroll back to the top</a>
                  </div>
               </Button>   
           </ul>
-      </footer>
+        </footer>
         <!--Custom JS-->
         <script src="js/scripts.js"></script>
     </body>
